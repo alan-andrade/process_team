@@ -1,43 +1,37 @@
 # Pair programming
 
-The intention of this guide is to gather opinions from prominent
-developers in the Ruby community and try to come up with our own way of doing pair
-programming.
+This guide assumes that you accept pair programming as a practice that
+yields code with relatively higher quality and that is beneficial for
+the company.
 
-First, let's talk about the concepts that most programmers think about pair
-programming:
+If you aren't committed to pair programming because you don't believe on
+the gains you can get, then stop reading and do something else. Don't
+waste your time.
 
-1. The written code will be of higher quality.
-2. Is highly probable that both parts will learn new things.
-3. With increased quality comes big savings later in the project.
+If you aren't committed because previous experiences were frustrating,
+please keep reading. After you finish, you'll have a better idea of
+_how_ to pair with somebody else successfully and have a good time doing
+so.
 
-This points sound very compelling! Then why aren't we pairing more?
-Probably If we analyze the most frequent problems of paring sessions, we
-could figure out what are we doing wrong.
+## Testing is fundamental
 
-Here we have a list of common problems.
+You need feedback from the system you're building. The fastest the
+better.
+Discussion is good, but code has better arguments than words.
 
-1. The task didn't get finished.
-2. The pair got into endless conversations.
-3. __NEED MORE__
+## Take small steps
 
-It seems that the problem might lie in __how__ we do pair programming and not
-so much on __why__ we do it. Let's talk about the options we have in
-terms of the process to follow.
+> Divide and conquer
+
+Describe the face of some potential symptoms.
+
+- When testing becomes harder that the problem itself
+- Dependecies start to itch
+- After 30 minutes, you haven't accomplished anything.
 
 ## Styles of pair programming
 
-According to the [Extreme Programming](http://www.extremeprogramming.org/rules/pair.html)
-manual, pair programming is a "social skill that takes time to
-learn", however, the reason _why_ it takes time is not discussed. I
-believe the manual should tell you how to pair program but apprently
-that's something that you get with experience.
-
-[Corey Haines](https://twitter.com/coreyhaines) is an experienced developer
-with more than 10 years in extreme programming. He wrote some thoughts on this
-[article](http://articles.coreyhaines.com/posts/thoughts-on-pair-programming/)
-about his experience with pair programming.
-
+__ EDIT __
 He has been facilitating coderetreat workshops for 5 years and has
 paired with all sort of developers: Newbies, experienced pair
 programmers, rockstars with no pair programming notion, and so forth.
@@ -72,6 +66,11 @@ right time for each member to switch roles. For example, you could always
 be the test redder and your partner the test greener. If that starts to
 feel monotonous, you could try being the test redder and test greener.
 Your partner would play both roles as well when you finish being both.
+
+> Taken from this [article](http://articles.coreyhaines.com/posts/thoughts-on-pair-programming/)
+> from [Corey Haines](https://twitter.com/coreyhaines).
+> He has more than 10 years of experience with pair programming.
+
 
 ### Which one should I choose?
 
